@@ -1,6 +1,7 @@
 # 🌫️ Real-Time Air Quality Monitoring using ESP32 and AWS DynamoDB
 
-This project monitors air quality using the MQ135 gas sensor connected to an ESP32 board. It sends live data to AWS DynamoDB via AWS IoT Core using HTTP protocol. The system helps track air pollution levels and can be extended for smart city, industrial, or health-based monitoring solutions.
+This project monitors air quality using the MQ135 gas sensor connected to an ESP32 board. It sends live data to AWS DynamoDB via AWS IoT Core using the MQTT protocol. The system helps track air quality levels and can be extended for smart city, industrial, or health-based monitoring solutions.The MQ135 sensor not only measures air quality but also has high sensitivity to ammonia gas, sulfides, benzene vapors, smoke, and other toxic gases. It is a low-cost sensor suitable for various applications requiring gas detection.
+
 
 ---
 
@@ -17,7 +18,7 @@ This project monitors air quality using the MQ135 gas sensor connected to an ESP
 ## ⚙️ Features
 
 - Real-time air quality monitoring
-- Live data transmission to AWS DynamoDB using HTTP
+- Live data transmission to AWS DynamoDB using MQTTP
 - Timestamped data logging
 - Cloud-based data storage (scalable & reliable)
 - Ready for dashboard or alert system integration
